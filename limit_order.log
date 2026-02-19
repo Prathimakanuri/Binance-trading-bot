@@ -1,0 +1,10 @@
+2026-02-19 23:36:15,638 - trading_bot - INFO - Placing order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.003, 'price': 60000.0}
+2026-02-19 23:36:15,642 - trading_bot.client - INFO - Sending order request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.003, 'price': '60000.0', 'timeInForce': 'GTC'}
+2026-02-19 23:36:17,043 - trading_bot.client - ERROR - Binance API Error: 400 - Limit price can't be lower than 62975.79.
+2026-02-19 23:36:39,385 - trading_bot - INFO - Placing order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.003, 'price': 10000.0}
+2026-02-19 23:36:39,387 - trading_bot.client - INFO - Sending order request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.003, 'price': '10000.0', 'timeInForce': 'GTC'}
+2026-02-19 23:36:40,513 - trading_bot.client - ERROR - Binance API Error: 400 - Limit price can't be lower than 62972.85.
+2026-02-19 23:37:06,418 - trading_bot - INFO - Placing order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.003, 'price': 100000.0}
+2026-02-19 23:37:06,421 - trading_bot.client - INFO - Sending order request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.003, 'price': '100000.0', 'timeInForce': 'GTC'}
+2026-02-19 23:37:07,758 - trading_bot.client - INFO - Order response received: {'orderId': 12397114018, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ1bad9d19c8d8965d4c377b', 'price': '100000.00', 'avgPrice': '0.00', 'origQty': '0.003', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1771524428603}
+2026-02-19 23:37:07,760 - trading_bot - INFO - Order successfully placed. OrderId: 12397114018
